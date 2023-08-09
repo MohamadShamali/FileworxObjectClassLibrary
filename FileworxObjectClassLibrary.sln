@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileworxObjectClassLibrary", "FileworxObjectClassLibrary.csproj", "{407676EE-B9B6-4618-B0CB-0A42E72EBE0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileworxObjectTester", "FileworxObjectTester\FileworxObjectTester.csproj", "{642EE818-E8BD-4E5B-86BF-73C12C3C582B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{407676EE-B9B6-4618-B0CB-0A42E72EBE0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407676EE-B9B6-4618-B0CB-0A42E72EBE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407676EE-B9B6-4618-B0CB-0A42E72EBE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407676EE-B9B6-4618-B0CB-0A42E72EBE0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642EE818-E8BD-4E5B-86BF-73C12C3C582B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642EE818-E8BD-4E5B-86BF-73C12C3C582B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642EE818-E8BD-4E5B-86BF-73C12C3C582B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642EE818-E8BD-4E5B-86BF-73C12C3C582B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2B13A5A-5BB7-4E6F-A06C-0CC4A0BFC148}
+	EndGlobalSection
+EndGlobal
