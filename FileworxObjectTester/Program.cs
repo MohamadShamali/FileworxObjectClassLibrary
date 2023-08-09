@@ -114,13 +114,13 @@ namespace FileworxObjectTester
             //____________________________________________________________________________________________________
 
             //Buisiness Object Query
-            var query = new clsBusinessObjectQuery();
-            query.QClasses = new clsBusinessObjectQuery.ClassIds[] { clsBusinessObjectQuery.ClassIds.Users };
-            var result = query.Run();
-            foreach (var c in result)
-            {
-                Console.WriteLine(c.Name);
-            }
+            //var query = new clsBusinessObjectQuery();
+            //query.QClasses = new clsBusinessObjectQuery.ClassIds[] { clsBusinessObjectQuery.ClassIds.Users };
+            //var result = query.Run();
+            //foreach (var c in result)
+            //{
+            //    Console.WriteLine(c.Name);
+            //}
             //____________________________________________________________________________________________________
 
             //File Query
