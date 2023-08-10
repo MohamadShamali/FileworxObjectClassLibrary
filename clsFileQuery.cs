@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace FileworxObjectClassLibrary
 {
-    internal class clsFileQuery
+    public class clsFileQuery
     {
         //Constats
         static string tableName = "T_FILE";
