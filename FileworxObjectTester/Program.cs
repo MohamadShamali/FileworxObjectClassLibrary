@@ -165,9 +165,9 @@ namespace FileworxObjectTester
             //____________________________________________________________________________________________________
 
             //User Validation
-            var user = new clsUser() { Username="a" , Password="a"};
+            //var user = new clsUser() { Username="a" , Password="a"};
 
-            Console.WriteLine(user.ValidateLogin());
+            //Console.WriteLine(user.ValidateLogin());
 
             Console.ReadLine();
         }
