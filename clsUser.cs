@@ -8,16 +8,17 @@ using System.Threading.Tasks;
 
 namespace FileworxObjectClassLibrary
 {
+    public enum LogInValidationResult
+    {
+        WrongUser = 0,
+        WrongPassword = 1,
+        Valid = 2
+    }
+
     public class clsUser : clsBusinessObject
     {
         // Constants
         static string tableName = "T_USER";
-        public enum LogInValidationResult
-        {
-            WrongUser =0,
-            WrongPassword =1,
-            Valid =2
-        }
 
         // Properties
         public string Username { get; set; }
