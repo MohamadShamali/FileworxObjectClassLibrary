@@ -12,13 +12,13 @@ namespace FileworxObjectTester
         static void Main(string[] args)
         {
             // Insert Photo
-            var photo = new clsPhoto();
-            photo.Id = new Guid("52a7b071-45f4-48f5-b494-b860da0b5c2f");
-            photo.Description = "photo";
-            photo.Name = "photo";
-            photo.Body = "photo";
-            photo.Location = @"D:\skysports-trent-alexander-arnold_6214990.jpg";
-            photo.Insert();
+            //var photo = new clsPhoto();
+            //photo.Id = new Guid("52a7b071-45f4-48f5-b494-b860da0b5c2f");
+            //photo.Description = "photo";
+            //photo.Name = "photo";
+            //photo.Body = "photo";
+            //photo.Location = @"D:\skysports-trent-alexander-arnold_6214990.jpg";
+            //photo.Insert();
 
             // Read Photo
             //var unknown = new clsPhoto();
@@ -161,6 +161,14 @@ namespace FileworxObjectTester
             //{
             //    Console.WriteLine(c.LastModifierName);
             //}
+
+            //____________________________________________________________________________________________________
+
+            //User Validation
+            var user = new clsUser() { Username="a" , Password="a"};
+
+            Console.WriteLine(user.ValidateLogin());
+
             Console.ReadLine();
         }
     }

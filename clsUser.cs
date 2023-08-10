@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -11,6 +12,12 @@ namespace FileworxObjectClassLibrary
     {
         // Constants
         static string tableName = "T_USER";
+        public enum LogInValidationResult
+        {
+            WrongUser =0,
+            WrongPassword =1,
+            Valid =2
+        }
 
         // Properties
         public string Username { get; set; }
@@ -70,7 +77,44 @@ namespace FileworxObjectClassLibrary
                         {
                             Username = (reader[1].ToString());
                             Password = (reader[2].ToString());
-                            IsAdmin = (bool) reader[3];
+                            IsAdmin = (bool)reader[3];
+                        }
+                    }
+                }
+            }
+        }
+
+        public LogInValidationResult ValidateLogin()
+        {
+            using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
+            {
+                connection.Open();
+                string query = $"SELECT C_PASSWORD " +
+                               $"FROM T_USER " +
+                               $"WHERE C_USERNAME='{Username}'";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            string storedPassword = (reader[0].ToString());
+
+                            if (storedPassword == Password)
+                            {
+                                return LogInValidationResult.Valid;
+                            }
+
+                            else
+                            {
+                                return LogInValidationResult.WrongPassword;
+                            }
+
+                        }
+                        else
+                        {
+                            return LogInValidationResult.WrongUser;
                         }
                     }
                 }
