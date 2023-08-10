@@ -80,14 +80,14 @@ namespace FileworxObjectTester
             //____________________________________________________________________________________________________
 
             // Insert User
-            //var user = new clsUser();
-            //user.Id = new Guid("77a7b071-45f4-48f5-b494-b860da0b5c2f");
-            //user.Description = "user";
-            //user.Name = "user";
-            //user.Username = "user";
-            //user.Password = "user";
-            //user.IsAdmin = false;
-            //user.Insert();
+            var user = new clsUser();
+            user.Id = new Guid("77a7b071-45f4-48f5-b494-b860da0b5c2f");
+            user.Description = "user";
+            user.Name = "user";
+            user.Username = "admin";
+            user.Password = "user";
+            user.IsAdmin = false;
+            user.Insert();
 
             // Read User
             //var unknown = new clsUser();
@@ -169,9 +169,9 @@ namespace FileworxObjectTester
 
             //Console.WriteLine(user.ValidateLogin());
 
-            var user = new clsUser() { Username = "admin" };
-            user.Read();
-            Console.WriteLine(user.Name);
+            //var user = new clsUser() { Username = "admin" };
+            //user.Read();
+            //Console.WriteLine(user.Name);
 
             Console.ReadLine();
         }

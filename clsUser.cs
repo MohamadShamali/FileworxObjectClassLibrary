@@ -31,31 +31,65 @@ namespace FileworxObjectClassLibrary
 
         public override void Insert()
         {
-            base.Insert();
 
-            using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
+            try
             {
-                connection.Open();
-                string query = $"INSERT INTO {tableName}(ID, C_USERNAME, C_PASSWORD, ISADMIN) VALUES('{Id}', '{Username}', '{Password}', '{IsAdmin}')";
-                using (SqlCommand command = new SqlCommand(query, connection))
+
+                using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
                 {
-                    command.ExecuteNonQuery();
+                    connection.Open();
+                    string query = $"INSERT INTO {tableName}(ID, C_USERNAME, C_PASSWORD, ISADMIN) VALUES('{Id}', '{Username}', '{Password}', '{IsAdmin}')";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.ExecuteNonQuery();
+                    }
                 }
             }
+
+            catch (SqlException ex)
+            {
+                if (ex.Number == 2627) // Error number for unique constraint violation
+                {
+                    throw new InvalidOperationException ("Duplicated username", ex);
+                }
+
+                else
+                {
+                    throw new InvalidOperationException("An error occurred while processing.", ex);
+                }
+            }
+
+            base.Insert();
         }
 
         public override void Update()
         {
             base.Update();
-            using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
+            try
             {
-                connection.Open();
-
-                string query = $"UPDATE {tableName} SET C_USERNAME= '{Username}', C_PASSWORD= '{Password}', ISADMIN= '{IsAdmin}' WHERE Id = '{Id}'";
-
-                using (SqlCommand command = new SqlCommand(query, connection))
+                using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
                 {
-                    command.ExecuteNonQuery();
+                    connection.Open();
+
+                    string query = $"UPDATE {tableName} SET C_USERNAME= '{Username}', C_PASSWORD= '{Password}', ISADMIN= '{IsAdmin}' WHERE Id = '{Id}'";
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+
+            catch (SqlException ex)
+            {
+                if (ex.Number == 2627) // Error number for unique constraint violation
+                {
+                    throw new InvalidOperationException("Duplicated username", ex);
+                }
+
+                else
+                {
+                    throw new InvalidOperationException("An error occurred while processing.", ex);
                 }
             }
         }
