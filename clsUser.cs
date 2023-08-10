@@ -62,19 +62,19 @@ namespace FileworxObjectClassLibrary
 
         public override void Read()
         {
-            base.Read();
             using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
             {
                 connection.Open();
                 string query = $"SELECT ID, C_USERNAME, C_PASSWORD, ISADMIN " +
                                $"FROM {tableName} " +
-                               $"WHERE Id = '{Id}'";
+                               $"WHERE ID = '{Id}' OR C_USERNAME = '{Username}'";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
                         if (reader.Read())
                         {
+                            Id = new Guid(reader[0].ToString());
                             Username = (reader[1].ToString());
                             Password = (reader[2].ToString());
                             IsAdmin = (bool)reader[3];
@@ -82,6 +82,7 @@ namespace FileworxObjectClassLibrary
                     }
                 }
             }
+            base.Read();
         }
 
         public LogInValidationResult ValidateLogin()

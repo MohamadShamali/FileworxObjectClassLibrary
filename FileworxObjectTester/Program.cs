@@ -169,6 +169,10 @@ namespace FileworxObjectTester
 
             //Console.WriteLine(user.ValidateLogin());
 
+            var user = new clsUser() { Username = "admin" };
+            user.Read();
+            Console.WriteLine(user.Name);
+
             Console.ReadLine();
         }
     }
