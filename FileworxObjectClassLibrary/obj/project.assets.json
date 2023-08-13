@@ -508,11 +508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\M.AL-Shamali\\Desktop\\Demo Projects\\FileworxObjectClassLibrary\\FileworxObjectLibrary\\FileworxObjectClassLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\M.AL-Shamali\\Desktop\\Demo Projects\\FileworxObjectClassLibrary\\FileworxObjectClassLibrary\\FileworxObjectClassLibrary.csproj",
       "projectName": "FileworxObjectClassLibrary",
-      "projectPath": "C:\\Users\\M.AL-Shamali\\Desktop\\Demo Projects\\FileworxObjectClassLibrary\\FileworxObjectLibrary\\FileworxObjectClassLibrary.csproj",
+      "projectPath": "C:\\Users\\M.AL-Shamali\\Desktop\\Demo Projects\\FileworxObjectClassLibrary\\FileworxObjectClassLibrary\\FileworxObjectClassLibrary.csproj",
       "packagesPath": "C:\\Users\\M.AL-Shamali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\M.AL-Shamali\\Desktop\\Demo Projects\\FileworxObjectClassLibrary\\FileworxObjectLibrary\\obj\\",
+      "outputPath": "C:\\Users\\M.AL-Shamali\\Desktop\\Demo Projects\\FileworxObjectClassLibrary\\FileworxObjectClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

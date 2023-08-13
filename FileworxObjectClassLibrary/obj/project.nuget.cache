@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "54XpCCBCg8d5CU7H4RSc25XmjB+s3NxIykPLEfI6wH+M9D020hMjNxMdtygWvbGoPimRO03Y6E5RxXrbPSgtAA==",
+  "dgSpecHash": "LB05L9rJa1v8mIXJyiCHSXLNiNVzusrw4OcCiPVa3ljKdYnodNeJpQDrjncWKFKAaGOnUwTPgZQoVO5OjHPLQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\M.AL-Shamali\\Desktop\\Demo Projects\\FileworxObjectClassLibrary\\FileworxObjectLibrary\\FileworxObjectClassLibrary.csproj",
+  "projectFilePath": "C:\\Users\\M.AL-Shamali\\Desktop\\Demo Projects\\FileworxObjectClassLibrary\\FileworxObjectClassLibrary\\FileworxObjectClassLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M.AL-Shamali\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\M.AL-Shamali\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
