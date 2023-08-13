@@ -32,7 +32,7 @@ namespace FileworxObjectClassLibrary
 
         public override void Insert()
         {
-
+            base.Insert();
             try
             {
 
@@ -60,7 +60,6 @@ namespace FileworxObjectClassLibrary
                 }
             }
 
-            base.Insert();
         }
 
         public override void Update()
