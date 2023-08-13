@@ -49,11 +49,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FileworxObjectLibrary\FileworxObjectClassLibrary.csproj">
-      <Project>{a595c555-10c8-44d4-beb2-f69fffb08637}</Project>
-      <Name>FileworxObjectClassLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
