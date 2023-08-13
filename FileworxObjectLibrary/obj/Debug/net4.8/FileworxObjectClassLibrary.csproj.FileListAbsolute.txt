@@ -1,0 +1,11 @@
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\bin\Debug\net4.8\FileworxObjectClassLibrary.dll
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\bin\Debug\net4.8\FileworxObjectClassLibrary.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net4.8\FileworxObjectClassLibrary.csproj.AssemblyReference.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net4.8\FileworxObjectClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net4.8\FileworxObjectClassLibrary.AssemblyInfoInputs.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net4.8\FileworxObjectClassLibrary.AssemblyInfo.cs
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net4.8\FileworxObjectClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net4.8\FileworxObjectClassLibrary.dll
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net4.8\FileworxObjectClassLibrary.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\bin\Debug\net4.8\System.Data.SqlClient.dll
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net4.8\FileworxObjectClassLibrary.csproj.CopyComplete

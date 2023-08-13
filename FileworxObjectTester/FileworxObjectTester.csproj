@@ -50,8 +50,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FileworxObjectClassLibrary.csproj">
-      <Project>{407676ee-b9b6-4618-b0cb-0a42e72ebe0c}</Project>
+    <ProjectReference Include="..\FileworxObjectLibrary\FileworxObjectClassLibrary.csproj">
+      <Project>{a595c555-10c8-44d4-beb2-f69fffb08637}</Project>
       <Name>FileworxObjectClassLibrary</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,38 @@
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\bin\Debug\FileworxObjectTester.exe.config
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\bin\Debug\FileworxObjectTester.exe
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\bin\Debug\FileworxObjectTester.pdb
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\bin\Debug\FileworxObjectClassLibrary.dll
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\bin\Debug\FileworxObjectClassLibrary.pdb
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.AssemblyReference.cache
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.SuggestedBindingRedirects.cache
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.CoreCompileInputs.cache
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.CopyComplete
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.exe
+C:\Users\M.AL-Shamali\Desktop\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\bin\Debug\FileworxObjectTester.exe.config
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\bin\Debug\FileworxObjectTester.exe
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\bin\Debug\FileworxObjectTester.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\bin\Debug\FileworxObjectClassLibrary.dll
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\bin\Debug\FileworxObjectClassLibrary.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.AssemblyReference.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.SuggestedBindingRedirects.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.CoreCompileInputs.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.CopyComplete
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.exe
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.AssemblyReference.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.SuggestedBindingRedirects.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.CoreCompileInputs.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.exe
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectLibrary\FileworxObjectTester\obj\Debug\FileworxObjectTester.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\bin\Debug\FileworxObjectTester.exe.config
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\bin\Debug\FileworxObjectTester.exe
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\bin\Debug\FileworxObjectTester.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\bin\Debug\FileworxObjectClassLibrary.dll
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\bin\Debug\FileworxObjectClassLibrary.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.AssemblyReference.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.SuggestedBindingRedirects.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.CoreCompileInputs.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\obj\Debug\FileworxObjectTester.csproj.CopyComplete
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\obj\Debug\FileworxObjectTester.exe
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectTester\obj\Debug\FileworxObjectTester.pdb
