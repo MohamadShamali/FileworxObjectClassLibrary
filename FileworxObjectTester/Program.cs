@@ -38,10 +38,10 @@ namespace FileworxObjectTester
             //Console.WriteLine(toupdate.Name);
 
             // Delete Photo
-            var toDelete = new clsPhoto();
-            toDelete.Id = new Guid("52a7b071-45f4-48f5-b494-b860da0b5c2f");
-            toDelete.Read();
-            toDelete.Delete();
+            //var toDelete = new clsPhoto();
+            //toDelete.Id = new Guid("52a7b071-45f4-48f5-b494-b860da0b5c2f");
+            //toDelete.Read();
+            //toDelete.Delete();
 
             //____________________________________________________________________________________________________
 
