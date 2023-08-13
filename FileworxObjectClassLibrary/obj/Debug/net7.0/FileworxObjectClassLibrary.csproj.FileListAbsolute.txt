@@ -10,3 +10,15 @@ C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjec
 C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net7.0\refint\FileworxObjectClassLibrary.dll
 C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net7.0\FileworxObjectClassLibrary.pdb
 C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectSolution\FileworxObjectLibrary\obj\Debug\net7.0\ref\FileworxObjectClassLibrary.dll
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\bin\Debug\net7.0\FileworxObjectClassLibrary.deps.json
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\bin\Debug\net7.0\FileworxObjectClassLibrary.dll
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\bin\Debug\net7.0\FileworxObjectClassLibrary.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\obj\Debug\net7.0\FileworxObjectClassLibrary.csproj.AssemblyReference.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\obj\Debug\net7.0\FileworxObjectClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\obj\Debug\net7.0\FileworxObjectClassLibrary.AssemblyInfoInputs.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\obj\Debug\net7.0\FileworxObjectClassLibrary.AssemblyInfo.cs
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\obj\Debug\net7.0\FileworxObjectClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\obj\Debug\net7.0\FileworxObjectClassLibrary.dll
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\obj\Debug\net7.0\refint\FileworxObjectClassLibrary.dll
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\obj\Debug\net7.0\FileworxObjectClassLibrary.pdb
+C:\Users\M.AL-Shamali\Desktop\Demo Projects\FileworxObjectClassLibrary\FileworxObjectClassLibrary\obj\Debug\net7.0\ref\FileworxObjectClassLibrary.dll
