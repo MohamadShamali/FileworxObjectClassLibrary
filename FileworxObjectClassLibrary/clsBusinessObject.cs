@@ -39,7 +39,7 @@ namespace FileworxObjectClassLibrary
             {
                 connection.Open();
                 string query = $"INSERT INTO {tableName}(ID, C_DESCRIPTION, C_CREATIONDATE, C_CREATORID, C_NAME, C_CLASSID)" +
-                                $"VALUES('{Id}', '{Description}', '{CreationDate}', '{CreatorId}', '{Name}', {(int) Class})";
+                                $"VALUES('{Id}', '{Description}', '{CreationDate}', '{CreatorId}', '{Name}', {(int) Class});";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.ExecuteNonQuery();

@@ -17,12 +17,13 @@ namespace FileworxObjectClassLibrary
 
         public override void Insert()
         {
-            base.Insert();
-
+            CreationDate = DateTime.Now;
             using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
             {
                 connection.Open();
-                string query = $"INSERT INTO {tableName}(ID, C_BODY) VALUES('{Id}', '{Body}')";
+                string query = $"INSERT INTO T_BUSINESSOBJECT (ID, C_DESCRIPTION, C_CREATIONDATE, C_CREATORID, C_NAME, C_CLASSID)" +
+                               $"VALUES('{Id}', '{Description}', '{CreationDate}', '{CreatorId}', '{Name}', {(int) Class});"+
+                               $"INSERT INTO T_FILE (ID, C_BODY) VALUES('{Id}', '{Body}');";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.ExecuteNonQuery();
@@ -32,13 +33,14 @@ namespace FileworxObjectClassLibrary
 
         public override void Update()
         {
-            base.Update();
-
             using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
             {
                 connection.Open();
 
-                string query = $"UPDATE {tableName} SET C_BODY = '{Body}' WHERE Id = '{Id}'";
+                string query = $"UPDATE T_BUSINESSOBJECT SET C_DESCRIPTION = '{Description}', C_CREATIONDATE = '{CreationDate}'," +
+                               $"C_MODIFICATIONDATE = '{ModificationDate}', C_CREATORID= '{CreatorId}', C_LASTMODIFIERID= '{LastModifierId}', " +
+                               $"C_NAME= '{Name}'  WHERE Id = '{Id}';"+
+                               $"UPDATE T_FILE SET C_BODY = '{Body}' WHERE Id = '{Id}';";
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {

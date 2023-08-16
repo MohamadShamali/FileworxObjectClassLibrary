@@ -48,13 +48,16 @@ namespace FileworxObjectClassLibrary
 
         public override void Insert()
         {
+            CreationDate = DateTime.Now;
             copyImage();
 
-            base.Insert();
             using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
             {
                 connection.Open();
-                string query = $"INSERT INTO {tableName}(ID, C_LOCATION) VALUES('{Id}', '{Location}')";
+                string query = $"INSERT INTO T_BUSINESSOBJECT (ID, C_DESCRIPTION, C_CREATIONDATE, C_CREATORID, C_NAME, C_CLASSID)" +
+                               $"VALUES('{Id}', '{Description}', '{CreationDate}', '{CreatorId}', '{Name}', {(int)Class});" +
+                               $"INSERT INTO T_FILE (ID, C_BODY) VALUES('{Id}', '{Body}');" +
+                               $"INSERT INTO T_PHOTO (ID, C_LOCATION) VALUES('{Id}', '{Location}')";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.ExecuteNonQuery();
@@ -74,7 +77,6 @@ namespace FileworxObjectClassLibrary
 
         public override void Update()
         {            
-            base.Update();
 
             if (photoUpdate)
             {
@@ -86,7 +88,11 @@ namespace FileworxObjectClassLibrary
             {
                 connection.Open();
 
-                string query = $"UPDATE {tableName} " +
+                string query = $"UPDATE T_BUSINESSOBJECT SET C_DESCRIPTION = '{Description}', C_CREATIONDATE = '{CreationDate}'," +
+                               $"C_MODIFICATIONDATE = '{ModificationDate}', C_CREATORID= '{CreatorId}', C_LASTMODIFIERID= '{LastModifierId}', " +
+                               $"C_NAME= '{Name}'  WHERE Id = '{Id}';" +
+                               $"UPDATE T_FILE SET C_BODY = '{Body}' WHERE Id = '{Id}';" +
+                               $"UPDATE {tableName} " +
                                $"SET C_LOCATION = '{Location}' " +
                                $"WHERE Id = '{Id}'";
 
@@ -125,8 +131,11 @@ namespace FileworxObjectClassLibrary
         {
             string photoName = Path.GetFileNameWithoutExtension(location);
             string photoextention = Path.GetExtension(location);
-            File.Copy(location, EditBeforRun.PhotosLocation + @"\" + Id.ToString() + photoextention);
-            location = EditBeforRun.PhotosLocation + @"\" + Id.ToString() + photoextention;
+            if(!File.Exists(EditBeforRun.PhotosLocation + @"\" + Id.ToString() + photoextention))
+            {
+                File.Copy(location, EditBeforRun.PhotosLocation + @"\" + Id.ToString() + photoextention);
+                location = EditBeforRun.PhotosLocation + @"\" + Id.ToString() + photoextention;
+            }
         }
     }
 }

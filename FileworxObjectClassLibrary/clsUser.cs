@@ -32,14 +32,15 @@ namespace FileworxObjectClassLibrary
 
         public override void Insert()
         {
-            base.Insert();
+            CreationDate = DateTime.Now;
             try
             {
-
                 using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
                 {
                     connection.Open();
-                    string query = $"INSERT INTO {tableName}(ID, C_USERNAME, C_PASSWORD, ISADMIN) VALUES('{Id}', '{Username}', '{Password}', '{IsAdmin}')";
+                    string query = $"INSERT INTO T_BUSINESSOBJECT (ID, C_DESCRIPTION, C_CREATIONDATE, C_CREATORID, C_NAME, C_CLASSID)" +
+                                   $"VALUES('{Id}', '{Description}', '{CreationDate}', '{CreatorId}', '{Name}', {(int)Class});"+
+                                   $"INSERT INTO T_USER(ID, C_USERNAME, C_PASSWORD, ISADMIN) VALUES('{Id}', '{Username}', '{Password}', '{IsAdmin}');";
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
                         command.ExecuteNonQuery();
@@ -64,14 +65,16 @@ namespace FileworxObjectClassLibrary
 
         public override void Update()
         {
-            base.Update();
             try
             {
                 using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
                 {
                     connection.Open();
 
-                    string query = $"UPDATE {tableName} SET C_USERNAME= '{Username}', C_PASSWORD= '{Password}', ISADMIN= '{IsAdmin}' WHERE Id = '{Id}'";
+                    string query = $"UPDATE T_BUSINESSOBJECT SET C_DESCRIPTION = '{Description}', C_CREATIONDATE = '{CreationDate}'," +
+                                   $"C_MODIFICATIONDATE = '{ModificationDate}', C_CREATORID= '{CreatorId}', C_LASTMODIFIERID= '{LastModifierId}', " +
+                                   $"C_NAME= '{Name}'  WHERE Id = '{Id}';" +
+                                   $"UPDATE T_USER SET C_USERNAME= '{Username}', C_PASSWORD= '{Password}', ISADMIN= '{IsAdmin}' WHERE Id = '{Id}'";
 
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {

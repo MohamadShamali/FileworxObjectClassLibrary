@@ -17,7 +17,7 @@ namespace FileworxObjectTester
             //photo.Description = "photo";
             //photo.Name = "photo";
             //photo.Body = "photo";
-            //photo.Location = @"D:\skysports-trent-alexander-arnold_6214990.jpg";
+            //photo.Location = @"D:\skysports-novak-djokovic-tennis_6214595.jpg";
             //photo.Insert();
 
             // Read Photo
@@ -70,7 +70,7 @@ namespace FileworxObjectTester
             //toupdate.Category = "Updated news";
             //toupdate.Update();
             //toupdate.Read();
-            //Console.WriteLine(toupdate.LastModifierName);
+            //Console.WriteLine(toupdate.Body);
 
             // Delete News
             //var toDelete = new clsNews();
