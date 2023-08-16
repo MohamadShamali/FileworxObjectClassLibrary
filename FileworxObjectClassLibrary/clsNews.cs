@@ -23,6 +23,9 @@ namespace FileworxObjectClassLibrary
         public override void Insert()
         {
             CreationDate = DateTime.Now;
+            Description = Description.Replace("'", "''");
+            Name = Name.Replace("'", "''");
+            Body = Body.Replace("'", "''");
             using (SqlConnection connection = new SqlConnection(EditBeforRun.connectionString))
             {
                 connection.Open();
